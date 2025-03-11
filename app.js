@@ -26,9 +26,9 @@ app.use(
 app.use(express.json());
 
 // api link
-const usersRoute = require("./routes/v1/users.route");
+const poleRoute = require("./routes/v1/pole.route");
 
 // routes
-app.use("/api/v1/users", usersRoute);
+app.use("/api/v1/pole", poleRoute);
 
 module.exports = app;
